@@ -1,0 +1,10 @@
+{
+  "run_id": 39265461928,
+  "run_number": 5,
+  "run_attempt": 1,
+  "environment": "AUTOMATION_QA",
+  "tags": "@smoke and not @C3943",
+  "tests_result": "failure",
+  "run_url": "https://github.com/marosb-bau/cammuQA/actions/runs/39265461928",
+  "published_at": "2026-10-19T14:27:24.213Z"
+}
