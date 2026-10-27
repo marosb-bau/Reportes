@@ -1,10 +1,12 @@
 {
-  "run_id": 39265461928,
-  "run_number": 5,
+  "run_id": 40509707050,
+  "run_number": 7,
   "run_attempt": 1,
+  "modo": "real",
   "environment": "AUTOMATION_QA",
-  "tags": "@smoke and not @C3943",
+  "tags": "@smoke",
   "tests_result": "failure",
-  "run_url": "https://github.com/marosb-bau/cammuQA/actions/runs/39265461928",
-  "published_at": "2026-10-19T14:27:24.213Z"
+  "workflow": "Playwright Tests",
+  "run_url": "https://github.com/marosb-bau/cammuQA/actions/runs/40509707050",
+  "published_at": "2026-10-27T13:36:26.882Z"
 }
