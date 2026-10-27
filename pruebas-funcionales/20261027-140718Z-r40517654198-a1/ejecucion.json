@@ -1,0 +1,36 @@
+{
+  "esquema": 1,
+  "categoria": "pruebas-funcionales",
+  "modalidad": "funcional",
+  "id": "marosb-bau/cammuQA#40517654198#1#pruebas-funcionales",
+  "carpeta": "20261027-140718Z-r40517654198-a1",
+  "inicio": "2026-10-27T14:07:18.624Z",
+  "inicioFuente": "resultados de Playwright",
+  "ambiente": "AUTOMATION_QA",
+  "tags": "@smoke",
+  "resultado": "fallido",
+  "detalle": null,
+  "conteos": {
+    "aprobadas": 0,
+    "fallidas": 19,
+    "inestables": 0,
+    "omitidas": 0,
+    "total": 19
+  },
+  "automatizacion": {
+    "repo": "marosb-bau/cammuQA",
+    "rama": "main",
+    "commit": "f29fe5edd444bfca628b68dc3569f01f4970eba5"
+  },
+  "frontend": null,
+  "ejecucion": {
+    "repo": "marosb-bau/cammuQA",
+    "runId": 40517654198,
+    "intento": 1,
+    "numero": 9,
+    "workflow": "Playwright Tests",
+    "url": "https://github.com/marosb-bau/cammuQA/actions/runs/40517654198/attempts/1"
+  },
+  "generado": "2026-10-27T14:30:25.387Z",
+  "publicado": "2026-10-27T14:31:20.071Z"
+}

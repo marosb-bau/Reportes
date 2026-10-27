@@ -1,0 +1,34 @@
+{
+  "esquema": 1,
+  "legado": true,
+  "categoria": "pruebas-funcionales",
+  "modalidad": "funcional",
+  "id": "legado#pruebas-funcionales#40509707050#2026-10-27T13:13:49.619Z",
+  "carpeta": "20261027-131349Z-legado-r40509707050",
+  "inicio": "2026-10-27T13:13:49.619Z",
+  "inicioFuente": "reporte Allure (widgets/summary.json)",
+  "publicado": "2026-10-27T13:36:26.882Z",
+  "ambiente": "AUTOMATION_QA",
+  "tags": "@smoke",
+  "resultado": "fallido",
+  "detalle": "resultado del job: failure",
+  "conteos": {
+    "aprobadas": 0,
+    "fallidas": 19,
+    "inestables": 0,
+    "omitidas": 0,
+    "desconocidas": 0,
+    "total": 19
+  },
+  "automatizacion": null,
+  "frontend": null,
+  "ejecucion": {
+    "repo": null,
+    "runId": 40509707050,
+    "intento": 1,
+    "numero": 7,
+    "workflow": "Playwright Tests",
+    "url": "https://github.com/marosb-bau/cammuQA/actions/runs/40509707050"
+  },
+  "generado": "2026-10-27T14:31:19.938Z"
+}
