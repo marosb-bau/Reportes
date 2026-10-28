@@ -1,0 +1,73 @@
+{
+  "variante": "con-deuda",
+  "atendidas": [
+    {
+      "metodo": "GET",
+      "url": "http://localhost:12288/api/Suministro/GetAsociadosAUsuario?conDeuda=false",
+      "contrato": "suministrosDelUsuario",
+      "status": 200
+    },
+    {
+      "metodo": "GET",
+      "url": "http://localhost:12288/api/suministro/910002/consumo",
+      "contrato": "consumoDelSuministro",
+      "status": 200
+    },
+    {
+      "metodo": "GET",
+      "url": "http://localhost:12288/api/Suministro/GetConsultaSegmentacion?cuentaUnificada=99990000000000021&idEmpresa=1&tipo_cliente=RES",
+      "contrato": "segmentacion",
+      "status": 200
+    },
+    {
+      "metodo": "GET",
+      "url": "http://localhost:12288/api/Suministro/GetConsultaDeuda?IdsSuministro=910002",
+      "contrato": "deudaDelSuministro",
+      "status": 200
+    },
+    {
+      "metodo": "POST",
+      "url": "http://localhost:12288/api/ov/Menu/Auditoria",
+      "contrato": "auditoriaDeNavegacion",
+      "status": 204
+    },
+    {
+      "metodo": "GET",
+      "url": "http://localhost:12288/api/Usuario/900001/Deuda",
+      "contrato": "deudaDelUsuario",
+      "status": 200
+    },
+    {
+      "metodo": "GET",
+      "url": "http://localhost:12288/api/LecturaMedidor/910002/CargaHabilitada",
+      "contrato": "cargaLecturaHabilitada",
+      "status": 200
+    },
+    {
+      "metodo": "GET",
+      "url": "http://localhost:12288/api/Usuario/ObtenerImagen",
+      "contrato": "imagenDeUsuario",
+      "status": 200
+    }
+  ],
+  "mocksFaltantes": [],
+  "noPermitidas": [],
+  "tercerosBloqueados": [
+    {
+      "metodo": "GET",
+      "url": "https://chatbots.widergydev.com/57ts1tb6/chatbot/botchat.css"
+    },
+    {
+      "metodo": "GET",
+      "url": "https://chatbots.widergydev.com/57ts1tb6/chatbot/botchat.js"
+    },
+    {
+      "metodo": "GET",
+      "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+      "metodo": "GET",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WHRZTH6"
+    }
+  ]
+}

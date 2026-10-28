@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Preview con datos simulados. Variante ""con-deuda"": Un suministro con una factura vencida","12281","Suministro con una factura vencida","Preview","2026-10-28","passed","2026-10-28","Mi Suministro (preview con API simulada)","Mi Suministro (preview con API simulada)","",""
+"","1196","un mock requerido faltante hace fallar el escenario","Preview","2026-10-28","passed","2026-10-28","","Autocontrol de la API simulada","",""
+"","1233","una solicitud externa no permitida queda bloqueada y hace fallar el escenario","Preview","2026-10-28","passed","2026-10-28","","Autocontrol de la API simulada","",""

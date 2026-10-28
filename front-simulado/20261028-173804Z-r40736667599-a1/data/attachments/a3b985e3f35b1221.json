@@ -1,0 +1,23 @@
+[
+  {
+    "metodo": "GET",
+    "path": "/api/Suministro/GetConsultaDeuda?IdsSuministro={id}",
+    "fuente": "src/app/services/suministros/deuda-suministro.service.ts",
+    "respuesta": "inferido",
+    "notas": "Servicio tipado `any` (\"TODO modelo\"). Lee Response[0].{Facturas, Facturas_parciales, PlanPagoCuotas, tipo_cliente, ServicioRespuestaResponse}; se responde con la forma de BaseSuministro. Supuesto: un elemento por id pedido."
+  },
+  {
+    "metodo": "POST",
+    "path": "/api/ov/Menu/Auditoria",
+    "fuente": "src/app/app.component.ts (registrarAuditoria)",
+    "respuesta": "supuesto",
+    "notas": "Fire-and-forget: el frontend no lee la respuesta. Se responde 204 sin registrar nada."
+  },
+  {
+    "metodo": "GET",
+    "path": "/api/Usuario/ObtenerImagen",
+    "fuente": "src/app/modules/home/services/side-bar.service.ts (getUserImage)",
+    "respuesta": "inferido",
+    "notas": "String base64; vacío = el sidebar muestra el avatar por defecto."
+  }
+]

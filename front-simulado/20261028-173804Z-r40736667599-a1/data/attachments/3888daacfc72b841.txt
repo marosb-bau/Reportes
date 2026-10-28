@@ -1,0 +1,1 @@
+no-permitida: GET https://example.org/datos

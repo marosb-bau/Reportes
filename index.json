@@ -1,6 +1,6 @@
 {
   "esquema": 1,
-  "generado": "2026-10-27T14:31:20.260Z",
+  "generado": "2026-10-28T17:42:27.267Z",
   "zonaHoraria": "America/Santiago",
   "categorias": {
     "pruebas-funcionales": [
@@ -77,6 +77,51 @@
         "ruta": "pruebas-funcionales/20261027-131349Z-legado-r40509707050/"
       }
     ],
-    "front-simulado": []
+    "front-simulado": [
+      {
+        "esquema": 1,
+        "categoria": "front-simulado",
+        "modalidad": "frontend-simulado",
+        "id": "marosb-bau/cammuQA#40736667599#1#front-simulado",
+        "carpeta": "20261028-173804Z-r40736667599-a1",
+        "inicio": "2026-10-28T17:38:04.823Z",
+        "inicioFuente": "resultados de Playwright",
+        "ambiente": null,
+        "tags": "(@smoke) and @preview",
+        "solicitud": "20261028173218-1b427e",
+        "resultado": "aprobado",
+        "detalle": "aprobado",
+        "conteos": {
+          "aprobadas": 3,
+          "fallidas": 0,
+          "inestables": 0,
+          "omitidas": 0,
+          "total": 3
+        },
+        "automatizacion": {
+          "repo": "marosb-bau/cammuQA",
+          "rama": "smoke/mi-suministro-frontend-actual-20261028-1417",
+          "commit": "798f3aa3ce898cf85310544f2721a157431e97b8"
+        },
+        "frontend": {
+          "repo": "marosb-bau/cammuQA",
+          "ref": "smoke/mi-suministro-frontend-actual-20261028-1417",
+          "commit": "798f3aa3ce898cf85310544f2721a157431e97b8",
+          "version": "3.94.6"
+        },
+        "ejecucion": {
+          "repo": "marosb-bau/cammuQA",
+          "runId": 40736667599,
+          "intento": 1,
+          "numero": 2,
+          "workflow": "Preview (APIs simuladas)",
+          "url": "https://github.com/marosb-bau/cammuQA/actions/runs/40736667599/attempts/1"
+        },
+        "generado": "2026-10-28T17:38:37.022Z",
+        "reporte": "generado",
+        "publicado": "2026-10-28T17:42:27.243Z",
+        "ruta": "front-simulado/20261028-173804Z-r40736667599-a1/"
+      }
+    ]
   }
 }
