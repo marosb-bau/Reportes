@@ -1,0 +1,12 @@
+{
+  "variante": "autocontrol",
+  "atendidas": [],
+  "mocksFaltantes": [
+    {
+      "metodo": "GET",
+      "url": "http://front.preview.test/api/Usuario/1/Deuda"
+    }
+  ],
+  "noPermitidas": [],
+  "tercerosBloqueados": []
+}

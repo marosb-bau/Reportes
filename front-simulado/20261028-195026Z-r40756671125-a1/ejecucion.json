@@ -1,0 +1,43 @@
+{
+  "esquema": 1,
+  "categoria": "front-simulado",
+  "modalidad": "frontend-simulado",
+  "id": "marosb-bau/cammuQA#40756671125#1#front-simulado",
+  "carpeta": "20261028-195026Z-r40756671125-a1",
+  "inicio": "2026-10-28T19:50:26.729Z",
+  "inicioFuente": "resultados de Playwright",
+  "ambiente": null,
+  "tags": "(@smoke and @tramites) and @preview",
+  "solicitud": "20261028194212-054223",
+  "resultado": "aprobado",
+  "detalle": "aprobado",
+  "conteos": {
+    "aprobadas": 3,
+    "fallidas": 0,
+    "inestables": 0,
+    "omitidas": 0,
+    "total": 3
+  },
+  "automatizacion": {
+    "repo": "marosb-bau/cammuQA",
+    "rama": "smoke/tramites-seguimiento-de-proyecto-20261028-1619",
+    "commit": "c7586e21bdc44edfb143140a5111da03f5a8e8e9"
+  },
+  "frontend": {
+    "repo": "marosb-bau/cammuQA",
+    "ref": "smoke/tramites-seguimiento-de-proyecto-20261028-1619",
+    "commit": "c7586e21bdc44edfb143140a5111da03f5a8e8e9",
+    "version": "3.94.6"
+  },
+  "ejecucion": {
+    "repo": "marosb-bau/cammuQA",
+    "runId": 40756671125,
+    "intento": 1,
+    "numero": 3,
+    "workflow": "Preview (APIs simuladas)",
+    "url": "https://github.com/marosb-bau/cammuQA/actions/runs/40756671125/attempts/1"
+  },
+  "generado": "2026-10-28T19:50:54.547Z",
+  "reporte": "generado",
+  "publicado": "2026-10-28T19:55:08.483Z"
+}

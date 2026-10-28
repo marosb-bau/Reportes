@@ -1,0 +1,12 @@
+{
+  "variante": "autocontrol",
+  "atendidas": [],
+  "mocksFaltantes": [],
+  "noPermitidas": [
+    {
+      "metodo": "GET",
+      "url": "https://example.org/datos"
+    }
+  ],
+  "tercerosBloqueados": []
+}
